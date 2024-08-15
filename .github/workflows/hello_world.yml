@@ -13,7 +13,6 @@ jobs:
     hello:
         runs-on: ubunutu-latest
         steps:
-            - uses: actions/checkout@v2
             - name: hello world
               run: echo "hello world"
               shell: bash
